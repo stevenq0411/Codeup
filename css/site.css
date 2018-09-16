@@ -4,17 +4,18 @@
 }
 
 h1.steven-style {
-	color: rgb(45, 45, 255);
-	text-decoration: underline dotted rgb(45, 55, 255);
+	color: #26a214;
+	text-decoration: underline dotted #26a214;
 }
 
-.green-bg {
-	background-color: #00AA00;
+.white-bg {
+	background-color: white;
 }
 
 body {
-	background-image: url("img/Lancer.jpg");
-	font-family: Lucida Console, Courier, cursive, serif;
+
+	font-family: 'Trocchi', cursive;
+	background-image: url("../img/test.png");
 }
 
 ul {
