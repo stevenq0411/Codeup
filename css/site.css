@@ -1,0 +1,44 @@
+.fancy-header {
+	color: blue; /*comment for fun */
+	text-decoration: underline;
+}
+
+h1.steven-style {
+	color: rgb(45, 45, 255);
+	text-decoration: underline dotted rgb(45, 55, 255);
+}
+
+.green-bg {
+	background-color: #00AA00;
+}
+
+body {
+	background-image: url("img/Lancer.jpg");
+	font-family: Lucida Console, Courier, cursive, serif;
+}
+
+ul {
+	list-style: square;
+}
+
+
+tr, td {
+	padding : 1em;
+	font-family: Times New Roman, Times, Sans-Serif;
+}
+
+a:visited {
+	color: red;
+}
+
+a:link {
+	color: purple;
+}
+
+a:hover {
+	color: white;
+}
+
+a:active {
+	color: blue;
+}

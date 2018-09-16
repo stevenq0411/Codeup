@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My First HTML Form</title>
+	</head>
+	<body>
+		<h2>User Login</h2>
+		<form method="POST" action="https://steven.free.beeceptor.com">
+			<p>
+				<label for="username">Username</label>
+				<input id="username" name="username" type="text" placeholder="Enter your username">
+			</p>
+			<p>
+				<label for="password">Password</label>
+				<input id="password" name="password" type="password" placeholder="Enter your password">
+			</p>
+			<p>
+				<button type="submit">Login</button>
+			</p>
+		</form>
+		<h2>Compose an Email</h2>
+		<form method="POST" action="https://steven.free.beeceptor.com">
+			<p>
+				<label for="to">To</label>
+				<input id="to" name="to" type="text" placeholder="Enter recipent's email address">
+			</p>
+			<p>
+				<label for="from">From</label>
+				<input id="from" name="from" type="text" placeholder="Enter your email address">
+			</p>
+			<p>
+				<label for="subject">Subject</label>
+				<input id="subject" name="subject" type="text" placeholder="Enter the subject of the email">
+			</p>
+			<textarea id="email_body" name="email_body">Enter your email's content here</textarea>
+			<p>
+				<label for="save">Do you want to save a copy to your Sent folder?</label>
+				<input type="checkbox" id="save" name="save" value="yes" checked>
+			</p>
+			<p>
+			<button type="submit">Send</button>
+			</p>
+		</form>
+		<h2>Multiple Choice Test</h2>
+		<form method="POST" action="https://steven.free.beeceptor.com">
+			<p>2 + 2 = ?</p>
+			<label>
+				<input type="radio" name="q1" value="1">
+				1
+			</label>
+			<label>
+				<input type="radio" name="q1" value="2">
+				2
+			</label>
+			<label>
+				<input type="radio" name="q1" value="3">
+				3
+			</label>
+			<label>
+				<input type="radio" name="q1" value="4">
+				4
+			</label>
+			<p>2 x 2 = ?</p>
+			<label>
+				<input type="radio" name="q2" value="2">
+				2
+			</label>
+			<label>
+				<input type="radio" name="q2" value="4">
+				4
+			</label>
+			<label>
+				<input type="radio" name="q2" value="6">
+				6
+			</label>
+			<label>
+				<input type="radio" name="q2" value="8">
+				8
+			</label>
+			<p>What videogame systems do you play on?</p>
+			<label>
+				<input type="checkbox" name="videogame[]" value="Xbox One">
+				Xbox One
+			</label>
+			<label>
+				<input type="checkbox" name="videogame[]" value="Playstation 4">
+				Playstation 4
+			</label>
+			<label>
+				<input type="checkbox" name="videogame[]" value="Nintendo Switch">
+				Nintendo Switch
+			</label>
+			<label>
+				<input type="checkbox" name="videogame[]" value="PC">
+				PC
+			</label>
+			<div>
+			<label for="q4">Select what operating system you have used before</label>
+			<select id="q4" name="q4" multiple>
+				<option value="OS X"> Mac OS X</option>
+				<option value="Windows 10"> Windows 10</option>
+				<option value="Linux">Linux</option>
+			</select>
+			</div>
+			<p>
+				<button type="submit">Submit</button>
+			</p>
+		</form>
+		<h2>Select Testing</h2>
+		<form method="POST" action="https://steven.free.beeceptor.com">
+			<label for="selectq">Do you use Windows 10?</label>
+			<select id="selectq" name="selectq">
+				<option value="0">No</option>
+				<option value="1" selected>Yes</option>
+			</select>
+			<p>
+				<button type="submit">Submit</button>
+			</p>
+		</form>
+	</body>
+</html>
